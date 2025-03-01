@@ -8,10 +8,16 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+         lightsky: "#E7FAFE",
+         gradyellow:'#ffc222',
       },
+
+      fontFamily:{
+        inter: ['Inter', 'sans-serif'],
+      }
     },
   },
-  plugins: [],
+  plugins: [
+    require('daisyui'),
+  ],
 };

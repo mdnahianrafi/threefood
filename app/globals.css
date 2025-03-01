@@ -2,20 +2,50 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+*{
+  margin: 0;
+  padding: 0;
+  user-select: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+
+.rotateImg {
+  animation: rotate 5s linear infinite; /* Apply the rotation animation */
+} 
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg); /* Start at 0 degrees */
+  }
+  100% {
+    transform: rotate(360deg); /* End at 360 degrees (full rotation) */
   }
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.floating-obj{
+animation: float 3s ease-in-out infinite;
+
 }
+@keyframes float {
+  0%,100%{
+    transform: translateY(-10px);
+  }
+  50%{
+    transform: translateY(0);
+  }
+}
+
+
+
+  
+
+  .SubscribeCard {
+    background-image: url(../public/Subscribe\ Card.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: auto;
+  }
+
+
+  
+  
