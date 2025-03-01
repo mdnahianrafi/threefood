@@ -146,6 +146,7 @@ const VideoSlider = ({ slides }) => {
     }
   }} // Store ref properly for playback control
     src={slide.videoSrc}
+    preload="none"
     controls={false}
     onEnded={handleVideoEnd}
     autoPlay={isVideoPlaying === index}
