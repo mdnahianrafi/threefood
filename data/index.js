@@ -21,7 +21,7 @@ export const slides= [
         text: 'This is some content for slide 3.',  // Content for the third slide
         cooktime:'1 Hour',
         cookitem:'Beef',
-        videoSrc: 'stake.mp4',  // Source for the third video
+        videoSrc: 'Stake.mp4',  // Source for the third video
          cookimg: 'cook.png'
       },    
 ]
