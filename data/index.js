@@ -20,7 +20,7 @@ export const slides= [
         title: 'Gourmet Juicy Stake',  // Title of the third slide
         text: 'This is some content for slide 3.',  // Content for the third slide
         cooktime:'1 Hour',
-        cookitem:'Beer',
+        cookitem:'Beef',
         videoSrc: 'stake.mp4',  // Source for the third video
          cookimg: 'cook.png'
       },    
